@@ -8,24 +8,26 @@
 </head>
 <body>
     <img src="logo.png">
-     <div>
+    <form action="">
+     <div> 
         <h2>Login</h2>
         <p>Access to our site</p>
         <label for="input1">Email</label>
         <br>
         <input type="email" name="email" placeholder="Enter Email" id="input1"></input>
         <br></br>
-        <form id="input2" style="display:none;">
+        <div class="sub-div" id="input2" style="display:none;">
         <label for="input2">Password</label>
         <br>
-        <input type="password" name="password" placeholder="Enter password"  ></input>
-        </form>
+        <input type="password" name="password" placeholder="Enter password"></input>
+        </div>
         <br>
         <a class="a" href="#">forgot password?</a>
         <br></br>
-        <button id="login">Login</button>
+        <button>Login</button>
         <p class="dont">Don't have account yet?<a href="@">&nbspRegister</a></p>
      </div>
+     </form>
      <script src="login.js"></script>
 </body>
 </html>
